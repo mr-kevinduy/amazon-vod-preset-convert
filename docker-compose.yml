@@ -1,0 +1,16 @@
+services:
+  app:
+    image: kevinduy/amazonlinux1
+    restart: always
+    tty: true
+    volumes:
+      - ./:/var/www/app
+    working_dir: /var/www/app
+    environment:
+      - http_proxy=${HTTP_PROXY}
+      - https_proxy=${HTTPS_PROXY}
+      - CHOKIDAR_USEPOLLING=true
+      - AWS_DEFAULT_OUTPUT=json
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
