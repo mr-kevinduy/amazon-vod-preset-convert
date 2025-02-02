@@ -1,0 +1,45 @@
+{
+    "region": "ap-southeast-1",
+    "pipeline_id": "1736322600211-3qsor6",
+    "presets": [
+        {
+            "preset_id": "1736217517295-8i44rk",
+            "output_type": "apple",
+            "name": "emcp_example_hls_HQ_dev",
+            "thumbnail_name": "emcp_example_hls_thumb_HQ_dev"
+        },
+
+        {
+            "preset_id": "1736217570801-dvye3k",
+            "output_type": "apple",
+            "name": "emcp_example_hls_LQ_dev",
+            "thumbnail_name": "emcp_example_hls_thumb_LQ_dev"
+        },
+
+        {
+            "preset_id": "1736217603812-u6ea6e",
+            "output_type": "dash",
+            "name": "emcp_example_mpeg_HQ_dev",
+            "thumbnail_name": "emcp_example_mpeg_thumb_HQ_dev"
+        },
+
+        {
+            "preset_id": "1736217675647-0h7eg9",
+            "output_type": "dash",
+            "name": "emcp_example_mpeg_audio_HQ_dev"
+        },
+
+        {
+            "preset_id": "1736217636526-hhvmx7",
+            "output_type": "dash",
+            "name": "emcp_example_mpeg_LQ_dev",
+            "thumbnail_name": "emcp_example_mpeg_thumb_LQ_dev"
+        },
+
+        {
+            "preset_id": "1736217701995-q23pbu",
+            "output_type": "dash",
+            "name": "emcp_example_mpeg_audio_LQ_dev"
+        }
+    ]
+}
